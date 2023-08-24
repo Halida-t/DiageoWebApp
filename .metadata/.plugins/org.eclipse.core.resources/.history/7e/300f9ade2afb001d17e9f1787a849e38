@@ -1,0 +1,22 @@
+package step_denifition;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class DiageoLogin {
+	
+	@Given("User is administrator and is on log in page.")
+	public void user_is_administrator() {
+	   System.out.println("User is an administrator");
+	}
+	@When("User clicks on URL:https:\\/staging.diageo.trutags.dev\\/login")
+	public void user_clicks_clicks_on_url_https_staging_diageo_trutags_dev_login() {
+	   System.out.println("User clicks on the URL.");
+	}
+	@Then("User should be able to be directed to a log in page")
+	public void user_should_be_able_to_be_directed_to_a_log_in_page() {
+		System.out.println("User is directed to Diageo Web Application login page.");
+	}
+
+}

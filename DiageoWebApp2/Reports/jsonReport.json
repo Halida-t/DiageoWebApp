@@ -1,0 +1,95 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "start_timestamp": "2023-05-25T21:08:50.506Z",
+        "line": 26,
+        "name": "User should be able to log in.",
+        "description": "",
+        "id": "diageo-web-application-login;user-should-be-able-to-log-in.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 27,
+            "name": "User is on the log in page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "The LOGIN button displays.",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "User enter valid email address.",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "User enter valid password.",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "User click on the LOGIN button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "User should be directed to dashboard.",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@DiageoLogin"
+          }
+        ]
+      }
+    ],
+    "name": "Diageo Web Application Login",
+    "description": "  User want to be able to login with valid credentials.\n  User should not be logged in with invalid credentials.",
+    "id": "diageo-web-application-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/DiageoWebApp.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

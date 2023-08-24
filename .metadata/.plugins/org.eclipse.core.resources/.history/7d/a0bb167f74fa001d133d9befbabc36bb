@@ -1,0 +1,31 @@
+package pages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import utilities.Driver;
+
+public class DiegeoWebApplicationLoginPage {
+	
+
+
+		
+		public DiegeoWebApplicationLoginPage() {
+			PageFactory.initElements(Driver.getDriver(), this);
+		}
+		
+		@FindBy (id ="input-23554")
+		public WebElement logInEmail;
+		
+		@FindBy (css = "input#password")
+		public WebElement logInPassword;
+		
+		@FindBy (css = ".v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--default")
+		public WebElement logInBtn;
+		
+		@FindBy (linkText = "Forgot your password?")
+		public WebElement passwordReset;
+		
+
+}
+

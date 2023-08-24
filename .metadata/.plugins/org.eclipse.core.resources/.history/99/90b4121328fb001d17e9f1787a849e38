@@ -1,0 +1,16 @@
+package runners;
+
+
+	
+	@RunWith(Cucumber.class)
+	@CucumberOptions(
+			plugin = {"pretty", "html:Reports/htmlReport.html", 
+			          "json:Reports/jsonReport.json"},		
+			features="./src/test/resources/features",
+		    glue="step_definition",
+		    dryRun=true,
+		    tags="@DiageoWebApp"
+		    		)
+	public class TestRunner {
+
+}

@@ -1,0 +1,9 @@
+package step_definitions;
+
+
+public class DiegeoWebApplicationLoginSteps {
+
+	BrowserUtils utils = new BrowserUtils();
+	DiegeoWebApplicationLoginSteps LoginPage = new DiegeoWebApplicationLoginSteps();
+	}
+

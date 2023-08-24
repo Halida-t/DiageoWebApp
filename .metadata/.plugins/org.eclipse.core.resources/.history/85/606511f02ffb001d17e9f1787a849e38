@@ -1,0 +1,14 @@
+package pages;
+
+import org.openqa.selenium.support.PageFactory;
+
+import utilities.driver;
+
+public class DiageoWebApplicationLoginPage {
+   
+	public DiageoWebApplicationLoginPage() {
+		PageFactory.initElements(driver.getDriver(), this);
+	}
+	
+	@
+}

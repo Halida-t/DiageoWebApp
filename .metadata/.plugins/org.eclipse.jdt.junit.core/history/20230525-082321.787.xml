@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner (1)" project="DiageoWebApp" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="runners.TestRunner" time="0.139">
+    <testsuite name="Diageo Web Application Login" time="0.139">
+      <testcase name="User should be directed to log in page" classname="Diageo Web Application Login" time="0.139">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'User is administrator.' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is administrator.")
+public void user_is_administrator() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User clicks clicks on URL:https:\\/\\/staging.diageo.trutags.dev\\/login")
+public void user_clicks_clicks_on_url_https_staging_diageo_trutags_dev_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should be able to be directed to a log in page")
+public void user_should_be_able_to_be_directed_to_a_log_in_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

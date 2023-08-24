@@ -1,0 +1,20 @@
+package step_definitions;
+
+
+import org.junit.Assert;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+import pages.DiegeoWebApplicationLoginPage;
+import utilities.Driver;
+import utilities.PropertiesReader;
+import utilities.BrowserUtils;
+
+public class DiegeoWebApplicationLoginSteps {
+
+	BrowserUtils utils = new BrowserUtils();
+	DiegeoWebApplicationLoginSteps LoginPage = new DiegeoWebApplicationLoginSteps();
+	}
+

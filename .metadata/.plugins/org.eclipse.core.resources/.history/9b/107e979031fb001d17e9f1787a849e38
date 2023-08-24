@@ -1,0 +1,16 @@
+package pages;
+
+import org.openqa.selenium.support.PageFactory;
+
+import utilities.driver;
+
+public class DiageoWebApplicationLoginPage {
+   
+	public DiageoWebApplicationLoginPage() {
+		PageFactory.initElements(driver.getDriver(), this);
+	}
+	
+	@FindBy (xpath = "//button[@class='v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--default']);"
+			
+}
+}

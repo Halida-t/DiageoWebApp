@@ -1,0 +1,15 @@
+	
+	@Regression
+	
+	Feature: Diegeo Login senarios 
+	         
+	  I want to be able to login with valid credentials.
+	  I should not be logged in with invalid credentials.
+
+@DiegeoWebApplicationLogin
+Scenario: User should be directed to log in page
+Given I am on Diegeo log in page
+And The Login button displays
+When I click on the Login button
+Then I should be directed to Dashboard page 
+	  

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner (1)" project="DiageoWebApp" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="runners.TestRunner" time="0.134">
+    <testsuite name="Diageo Web Application Login" time="0.134">
+      <testcase name="User should be able to log in." classname="Diageo Web Application Login" time="0.134">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'User is on the log in page' and 5 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on the log in page")
+public void user_is_on_the_log_in_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("The LOGIN button displays.")
+public void the_login_button_displays() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enter valid email address.")
+public void user_enter_valid_email_address() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enter valid password.")
+public void user_enter_valid_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User click on the LOGIN button")
+public void user_click_on_the_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should be directed to dashboard.")
+public void user_should_be_directed_to_dashboard() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

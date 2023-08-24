@@ -1,0 +1,45 @@
+package step_denifition;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import utilities.PropertiesReader;
+import utilities.driver;
+
+public class DiageoLogin {
+	
+	@Given("User is on the log in page")
+	public void user_is_on_the_log_in_page() {
+	    driver.getDriver().get(PropertiesReader.getProperty("DiageoWebAppUrl"));
+	}
+	@Given("The LOGIN button displays.")
+	public void the_login_button_displays() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	@When("User enter valid email address.")
+	public void user_enter_valid_email_address() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	@When("User enter valid password.")
+	public void user_enter_valid_password() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	@When("User click on the LOGIN button")
+	public void user_click_on_the_login_button() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	@Then("User should be logged in.")
+	public void user_should_be_logged_in() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	@Then("Diageo dashboard opens.")
+	public void diageo_dashboard_opens() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+}
